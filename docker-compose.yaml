@@ -1,0 +1,6 @@
+version: '2.0'
+services:
+  app:
+    build: designpro
+    ports:
+      - 8888:3000
